@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        height: 96vh;
+        width: 23vw;
+        background-color: white;
+        margin-left: 38%;
+        border-radius: 2%;
+      }
+      header {
+        background-color: white;
+        margin-top: 2%;
+        width: 100%;
+        height: 5%;
+      }
+      .head {
+        display: inline-block;
+      }
+      .head1 {
+        margin-left: 5%;
+        height: 60%;
+      }
+      .head2 {
+        margin-left: 23%;
+      }
+      .head3 {
+        margin-left: 28%;
+        height: 60%;
+      }
+
+      .nav {
+        background-color: green;
+        width: 100%;
+        height: 6vh;
+        border: 1px solid black;
+      }
+      .navimg {
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 32%;
+      }
+
+      .navimg1 {
+        margin-top: 3%;
+        /* margin-left: 5%; */
+        margin-right: 30%;
+      }
+
+      .adjust {
+        /* margin-left:2%; */
+        margin-right: 10%;
+      }
+
+      .container1 {
+        height: 60%;
+      }
+      .container1 iframe {
+        /* border-radius: 2%; */
+        height: 90%;
+        width: 99.5%;
+      }
+
+      .imgdiv {
+        margin-left: 8%;
+      }
+
+      .one {
+        background-color: black;
+        box-shadow: 0px 3px 5px 2px darkgrey;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-radius: 5%;
+      }
+      form {
+        border-radius: 2px solid purple;
+        width: 50%;
+      }
+      form label {
+        display: block;
+        margin-top: 15%;
+        margin-left: 2%;
+        font-size: 150%;
+      }
+      form .hr {
+        margin-left: 65%;
+        width: 130%;
+        border: 1px solid black;
+      }
+      .proceed {
+        margin-top: 10%;
+        text-align: center;
+        background-color: green;
+        height: 6%;
+      }
+      #bold {
+        display: inline-block;
+        margin-top: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img class="head head1" src="menu.png" alt="" />
+        <p class="head head2">Where are you</p>
+        <img class="head head3" src="telephone.png" alt="" />
+      </header>
+
+      <div class="nav">
+        <div>
+          <a href=""><img src="left.png" class="navimg" alt="" /></a>
+          <a href=""><img src="radio-button.png" class="navimg1" alt="" /></a>
+          <a href=""><img src="play-button.png" alt="" /></a>
+        </div>
+      </div>
+
+      <div class="container1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15229.447501726774!2d78.42289734185451!3d17.394412712452482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb971c34e3008d%3A0x107d0340a3789796!2sMehdipatnam%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1707309567960!5m2!1sen!2sin"
+        ></iframe>
+        <div class="imgdiv">
+          <img class="img1 one" src="apartment.png" alt="" height="20%" />
+          <img class="img1 one" src="circus-tent.png" alt="" />
+          <img class="img1 one" src="travel-bag.png" alt="" />
+          <img class="img1 one" src="house.png" alt="" />
+        </div>
+      </div>
+
+      <form action="">
+        <label for="flat"><b>Flat no :</b></label>
+        <hr class="hr" />
+        <label for="flat"><b>Address :</b></label>
+        <hr class="hr" />
+      </form>
+
+      <div class="proceed">
+        <b id="bold">PROCEED</b>
+      </div>
+    </div>
+  </body>
+</html>
